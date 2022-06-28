@@ -1,0 +1,2 @@
+/// @desc
+destroy = false;

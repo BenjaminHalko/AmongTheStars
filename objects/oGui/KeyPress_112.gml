@@ -1,0 +1,2 @@
+/// @desc
+debug = !debug;

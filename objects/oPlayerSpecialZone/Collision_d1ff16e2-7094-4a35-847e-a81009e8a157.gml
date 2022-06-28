@@ -1,0 +1,2 @@
+/// @desc
+other.hit = true;

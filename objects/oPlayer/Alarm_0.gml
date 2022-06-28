@@ -1,0 +1,2 @@
+/// @desc
+oFlash.mode = "Dissappear";
