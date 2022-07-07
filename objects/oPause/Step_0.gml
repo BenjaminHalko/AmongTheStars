@@ -58,3 +58,22 @@ stoneunlocked[2,7] = stoneunlocked[4,5];
 stoneunlocked[9,11] = stoneunlocked[10,11];
 stoneunlocked[8,11] = stoneunlocked[10,11];
 stoneunlocked[3,0] = stoneunlocked[2,0];
+
+var num = 0;
+for(var i = 0; i < 16; i++)
+{
+	for(var j = 0; j < 16; j++)
+	{
+		if(stoneunlocked[i,j])
+		{
+			num++;
+		}
+	}
+}
+
+if(round(num/(16*16)*100) != lastPercentage) {
+	lastPercentage = round(num/(16*16)*100);
+	try gxc_challenge_submit_score(lastPercentage,undefined,{challengeId: "227985b6-544d-491b-be02-083472e5a629"});
+	catch(_error) show_debug_message(_error);
+	event_perform_object(oLoadObjects,ev_alarm,1);
+}

@@ -9,7 +9,7 @@ function Load(argument0, argument1, argument2) {
 	var _d = argument2;
 	var _v;
 
-	ini_open("Save.ini");
+	ini_open(global.username+".ini");
 	if(is_real(_d))
 	{
 		var _v =  ini_read_real(_s,_k,_d);

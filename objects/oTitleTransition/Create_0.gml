@@ -1,5 +1,4 @@
 /// @desc
-global.collisionMaps = [];
 energyboardcoloums = 1920/50
 energyboardrows = 1080/50
 energyboardspd = random_range(7,13);

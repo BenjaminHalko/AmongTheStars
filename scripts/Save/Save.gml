@@ -8,7 +8,7 @@ function Save(argument0, argument1, argument2) {
 	var _k = argument1;
 	var _v = argument2;
 
-	ini_open("Save.ini");
+	ini_open(global.username+".ini");
 
 	if(is_real(_v))
 	{

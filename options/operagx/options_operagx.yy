@@ -1,6 +1,6 @@
 {
-  "option_operagx_version": "0.0.0.6",
-  "option_operagx_next_version": "0.0.0.7",
+  "option_operagx_version": "0.0.0.16",
+  "option_operagx_next_version": "0.0.0.17",
   "option_operagx_game_name": "Among the Stars",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
@@ -11,7 +11,7 @@
   "option_operagx_team_id": "001cf107-345b-4227-b45e-d54580fe019c",
   "option_operagx_editUrl": "https://dc.gxc.gg/home/games/game/d81ab110-efda-4bb6-bbcf-ab9a55097eed/edit",
   "option_operagx_internalShareUrl": "https://gxc.gg/games/d81ab110-efda-4bb6-bbcf-ab9a55097eed/tracks/3bb7c73d-27a5-4848-8c4d-de7c3b64a899",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gxc.gg/games/d81ab110-efda-4bb6-bbcf-ab9a55097eed",
   "resourceVersion": "1.0",
   "name": "operagx",
   "tags": [],

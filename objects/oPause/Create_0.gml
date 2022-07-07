@@ -11,3 +11,5 @@ for(var i = 0; i < 16; i++)
 		stoneunlocked[i,j] = false;
 	}
 }
+
+lastPercentage = 0;

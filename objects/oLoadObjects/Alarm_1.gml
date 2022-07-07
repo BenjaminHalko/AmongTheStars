@@ -1,5 +1,6 @@
 /// @desc
 instance_activate_all();
+
 Save("Player","X",oPlayer.x);
 Save("Player","Y",oPlayer.y);
 Save("Player","xScale",oPlayer.image_xscale);
@@ -41,4 +42,4 @@ Save("Counters","Starcount",global.starcount);
 
 Save("Objects","Wallblock",!instance_exists(oWallBlockActivate));
 
-alarm[1] = room_speed*60;
+alarm[1] = room_speed*10;

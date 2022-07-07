@@ -99,5 +99,3 @@ if(fall)
 		y += grv;
 	}
 }
-
-polygon = polygon_from_instance(id,angle);

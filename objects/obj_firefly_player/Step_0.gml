@@ -1,7 +1,5 @@
 /// @desc
 /*
-light[| eLight.X] = x;
-light[| eLight.Y] = y;
 
 if(abs(hsp) <= 4.5) and (abs(vsp) <= 4.5)
 {

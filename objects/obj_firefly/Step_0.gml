@@ -1,7 +1,4 @@
 /// @desc
-light[| eLight.X] = x;
-light[| eLight.Y] = y;
-
 
 if(!in) and (trapped)
 {
@@ -26,6 +23,7 @@ if(!in) and (trapped)
 			global.fireflys++;
 			try gxc_challenge_submit_score(global.fireflys,undefined,{challengeId: "e8deabb8-1d33-4adf-add5-978415e3dace"});
 			catch(_error) show_debug_message(_error);
+			event_perform_object(oLoadObjects,ev_alarm,1);
 		}
 	}
 }

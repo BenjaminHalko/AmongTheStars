@@ -23,6 +23,8 @@ if(_ds != "")
 if(!ds_list_empty(global.bottlemap))
 {
 	global.fireflys = ds_list_size(global.bottlemap)*5;
+	try gxc_challenge_submit_score(global.fireflys,undefined,{challengeId: "e8deabb8-1d33-4adf-add5-978415e3dace"});
+	catch(_error) show_debug_message(_error);
 	for(var i = 0; i < ds_list_size(global.bottlemap); i++)
 	{
 		instance_create_layer(0,0,"Lighting",obj_firefly_player);

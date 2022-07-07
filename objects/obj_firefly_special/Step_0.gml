@@ -1,6 +1,4 @@
 /// @desc
-light[| eLight.X] = x;
-light[| eLight.Y] = y;
 
 if(hsp == 0) and (vsp == 0)
 {

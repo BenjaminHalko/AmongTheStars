@@ -16,7 +16,7 @@ for(var i=0;i<staramount;i++)
 		timer[i] -= random_range(1,5);
 	}
 	
-	if(room == rInt) and (oPlayerIntro.sprite_index = sPlayerR)
+	if(room == rInt)
 	{
 		xx[i] -= 5*scale[i];
 		

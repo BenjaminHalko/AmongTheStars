@@ -8,5 +8,3 @@ else
 {
 	image_yscale = (max(xx,xstart) - min(xx,xstart))/sprite_get_height(sprite_index);
 }
-
-polygon = polygon_from_instance(id);

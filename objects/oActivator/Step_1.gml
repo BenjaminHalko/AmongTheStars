@@ -22,9 +22,7 @@ with(oFallingGround)
 }
 
 if(!oPause.pause)
-{
-	instance_activate_object(obj_light_renderer);
-	instance_deactivate_object(oWall);
+{;
 	instance_activate_region(x1,y1,x2,y2,true);
 	instance_activate_object(oStar);
 	if(y1 <= 540)
@@ -40,7 +38,6 @@ if(!oPause.pause)
 else
 {
 	instance_activate_all();
-	instance_deactivate_object(obj_light_renderer);
 	instance_deactivate_object(obj_firefly_player);
 	instance_deactivate_object(obj_firefly_special);
 	instance_deactivate_object(obj_moth);
