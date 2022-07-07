@@ -1,8 +1,12 @@
 {
-    "id": "6ee3e0fb-bcca-4948-a799-5edcb09383c4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "lighting_post_composite",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Misc/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "lighting_post_composite",
+  "tags": [],
+  "resourceType": "GMScript",
 }

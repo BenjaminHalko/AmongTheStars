@@ -1,8 +1,12 @@
 {
-    "id": "078edde4-99fb-43ba-9e6f-db333dab30bb",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "Save",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Save",
+  "tags": [],
+  "resourceType": "GMScript",
 }

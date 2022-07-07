@@ -1,8 +1,12 @@
 {
-    "id": "0468fcb2-422d-4deb-955e-079019f4177e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "light_static_get_array",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Static Storage",
+    "path": "folders/Scripts/Lighting/Lights/Static Storage.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "light_static_get_array",
+  "tags": [],
+  "resourceType": "GMScript",
 }

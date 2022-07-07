@@ -1,4 +1,5 @@
 /// @desc
+global.collisionMaps = [];
 energyboardcoloums = 1920/50
 energyboardrows = 1080/50
 energyboardspd = random_range(7,13);
@@ -15,7 +16,6 @@ for(var i = 0; i < energyboardcoloums; i++)
 	}
 }
 
-screen_save("Title.png");
-sprite = sprite_add("Title.png",1,false,false,0,0);
-file_delete("Title.png");
+
+sprite = sprite_create_from_surface(application_surface,0,0,surface_get_width(application_surface),surface_get_height(application_surface),false,false,0,0);
 newroom = false;

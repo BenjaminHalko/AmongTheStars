@@ -18,8 +18,6 @@ with(pPlayer)
 	_frameToRecord[? "player.angle"] = image_angle;
 	_frameToRecord[? "player.alpha"] = image_alpha;
 }
-if(string(oMusic.music) != "undefined")
-_frameToRecord[? "music"] = oMusic.music;
 	
 ds_list_add(ghostRecordList,_frameToRecord);
 ds_list_mark_as_map(ghostRecordList,ds_list_size(ghostRecordList)-1);

@@ -1,8 +1,12 @@
 {
-    "id": "4a7598e9-f497-43ae-8910-856d7e7fd7a4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "light_draw_shadow_map",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Lights/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "light_draw_shadow_map",
+  "tags": [],
+  "resourceType": "GMScript",
 }

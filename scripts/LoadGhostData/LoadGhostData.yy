@@ -1,8 +1,12 @@
 {
-    "id": "73eea54f-245f-4c74-843e-681c7352600f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "LoadGhostData",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Ghost",
+    "path": "folders/Scripts/Ghost.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "LoadGhostData",
+  "tags": [],
+  "resourceType": "GMScript",
 }

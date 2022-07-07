@@ -1,8 +1,12 @@
 {
-    "id": "8af9492e-368c-4444-9982-9e91bec09d2a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "point_in_polygon",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Misc/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "point_in_polygon",
+  "tags": [],
+  "resourceType": "GMScript",
 }

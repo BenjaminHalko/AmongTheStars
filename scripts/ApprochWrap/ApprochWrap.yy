@@ -1,8 +1,12 @@
 {
-    "id": "beec4489-ccc4-4bc2-9949-7bec590fd154",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "ApprochWrap",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ApprochWrap",
+  "tags": [],
+  "resourceType": "GMScript",
 }

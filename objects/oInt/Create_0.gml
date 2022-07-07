@@ -1,11 +1,4 @@
 /// @desc
-#region Pitch & Ending
-stop = false;
-pitch = 1;
-pitchspd = 0.005;
-time = 5;
-alpha = 0;
-#endregion
 
 #region Text
 maxtext = 10;
@@ -39,3 +32,5 @@ for (var i = 0; i < gp_num; i++;)
    }
 }
 #endregion
+
+room_goto_next();

@@ -16,8 +16,6 @@ if(key_pause) and (!instance_exists(oGhost))
 	prepause = oCamera.pause;
 }
 
-oMusic.pause = oCamera.pause;
-
 if(pause)
 {
 	playermapscale = Wave(5,7,3,0);

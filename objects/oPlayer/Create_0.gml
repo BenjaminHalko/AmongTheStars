@@ -1,5 +1,12 @@
 /// @desc Variables
 event_inherited();
+global.collisionMaps = [];
+#macro GRASS 0
+#macro CAVE 1
+#macro LAVA 2
+#macro DEEP 3
+#macro END 4
+#macro SPECIAL 5
 hsp = 0;
 vsp = 0;
 hsp_fraction = 0;

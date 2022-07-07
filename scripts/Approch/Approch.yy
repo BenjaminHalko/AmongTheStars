@@ -1,8 +1,12 @@
 {
-    "id": "4231468c-3005-44f2-928f-191f0888d1a4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "Approch",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Useful Scripts",
+    "path": "folders/Scripts/Useful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Approch",
+  "tags": [],
+  "resourceType": "GMScript",
 }

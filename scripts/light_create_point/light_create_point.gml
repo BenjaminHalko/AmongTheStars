@@ -6,13 +6,17 @@
 /// @arg range The range of the light in pixels
 /// @arg intensity The intensity of the light (must be positive)
 /// @returns The created light
+function light_create_point(argument0, argument1, argument2, argument3, argument4, argument5) {
 
-// Gather the arguments
-var lx = argument0;
-var ly = argument1;
-var shadow_length = argument2;
-var col = argument3;
-var range = argument4;
-var intensity = argument5;
+	// Gather the arguments
+	var lx = argument0;
+	var ly = argument1;
+	var shadow_length = argument2;
+	var col = argument3;
+	var range = argument4;
+	var intensity = argument5;
 
-return light_create(lx, ly, shadow_length, eLightType.Point, col, range, intensity);
+	return light_create(lx, ly, shadow_length, eLightType.Point, col, range, intensity);
+
+
+}

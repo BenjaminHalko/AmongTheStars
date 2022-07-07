@@ -39,8 +39,6 @@ Save("Counters","Ducks",global.ducks);
 Save("Counters","Fireflies",instance_number(obj_firefly_special));
 Save("Counters","Starcount",global.starcount);
 
-Save("Music","Song",oMusic.music);
-
 Save("Objects","Wallblock",!instance_exists(oWallBlockActivate));
 
 alarm[1] = room_speed*60;

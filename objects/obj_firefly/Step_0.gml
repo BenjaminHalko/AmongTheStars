@@ -24,6 +24,8 @@ if(!in) and (trapped)
 			vsp = 0;
 			bottle.fireflies++;
 			global.fireflys++;
+			try gxc_challenge_submit_score(global.fireflys,undefined,{challengeId: "e8deabb8-1d33-4adf-add5-978415e3dace"});
+			catch(_error) show_debug_message(_error);
 		}
 	}
 }

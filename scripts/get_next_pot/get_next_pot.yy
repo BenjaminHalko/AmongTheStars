@@ -1,8 +1,12 @@
 {
-    "id": "44d7f04b-3b18-4620-b33c-6aa314e17d60",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "get_next_pot",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Misc/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "get_next_pot",
+  "tags": [],
+  "resourceType": "GMScript",
 }

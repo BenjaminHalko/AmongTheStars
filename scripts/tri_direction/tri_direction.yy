@@ -1,8 +1,12 @@
 {
-    "id": "150d235b-50f5-4a93-858f-3666436a9ab8",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "tri_direction",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Misc/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "tri_direction",
+  "tags": [],
+  "resourceType": "GMScript",
 }

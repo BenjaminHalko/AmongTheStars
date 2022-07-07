@@ -1,8 +1,12 @@
 {
-    "id": "75396b2f-bc1d-4c29-a236-201146695140",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "Wave",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Useful Scripts",
+    "path": "folders/Scripts/Useful Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Wave",
+  "tags": [],
+  "resourceType": "GMScript",
 }

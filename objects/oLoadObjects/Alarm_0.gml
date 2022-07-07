@@ -169,8 +169,6 @@ if(!ds_list_empty(global.mapsCollected))
 	}
 }
 
-ChangeMusic(Load("Music","Song",GRASS),true);
-
 if(Load("Objects","Wallblock",false))
 {
 	with(oWallBlock) 

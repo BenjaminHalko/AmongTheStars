@@ -38,6 +38,4 @@ Save("Counters","Walljumps",global.walljumps);
 Save("Counters","Ducks",global.ducks);
 Save("Counters","Starcount",global.starcount);
 
-Save("Music","Song",oMusic.music);
-
 Save("Objects","Wallblock",!instance_exists(oWallBlockActivate));

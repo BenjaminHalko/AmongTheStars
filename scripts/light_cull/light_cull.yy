@@ -1,8 +1,12 @@
 {
-    "id": "0bc37551-88ad-45ca-ba09-33ccccbb6d7d",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "light_cull",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Internal",
+    "path": "folders/Scripts/Lighting/Lights/Internal.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "light_cull",
+  "tags": [],
+  "resourceType": "GMScript",
 }

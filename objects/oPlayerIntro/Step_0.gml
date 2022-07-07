@@ -1,5 +1,5 @@
 /// @desc
-if((sizew == display_get_width()) and (sizeh == display_get_height())) or (os_type == os_linux)
+if((sizew == display_get_width()) and (sizeh == display_get_height())) or true//(os_type == os_linux)
 {
 	//window_set_fullscreen(true);
 	sprite_index = sPlayerR;

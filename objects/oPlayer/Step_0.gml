@@ -1,4 +1,4 @@
-if(room == rGame) and ((oPause.pause) or (!hascontrol) or ((instance_exists(oHouseDoor)) and (oHouseDoor.phase != 0)))
+if(room == rGame) and ((oPause.pause) or (!hascontrol))
 {
 	image_speed = 0;
 	exit;	
@@ -48,8 +48,8 @@ if(!instance_exists(oGhost))
 		#endregion
 
 		#region Ducking
-		var wallabove = instance_place(x,y-15,oWall);
-		if((!key_jump) and (key_duck) and (reduck)) or ((ducking) and (wallabove != noone))
+		var wallabove = Collision(x,y-15);
+		if((!key_jump) and (key_duck) and (reduck)) or ((ducking) and (wallabove))
 		{
 			if(!ducking)
 			{
@@ -138,7 +138,7 @@ if(!instance_exists(oGhost))
 			if(key_jump)
 			{
 				jumpbuffer = 0;
-				if ((wallabove == noone))
+				if (!wallabove)
 				{
 					global.jumps++;
 					vsp = vsp_jump;
@@ -164,10 +164,10 @@ if(!instance_exists(oGhost))
 		#endregion
 
 		#region Horizontal Collision
-		if (place_meeting(x+hsp,y,pWall))
+		if (Collision(x+hsp,y))
 		{
 			var onepixel = sign(hsp);
-			while(!place_meeting(x+onepixel,y,pWall)) x += onepixel;
+			while(!Collision(x+onepixel,y)) x += onepixel;
 			hsp = 0;
 			hsp_fraction = 0;
 		}
@@ -178,10 +178,10 @@ if(!instance_exists(oGhost))
 		#endregion
 
 		#region Vertical Collision
-		if (place_meeting(x,y+vsp,pWall))
+		if (Collision(x,y+vsp))
 		{
 			var onepixel = sign(vsp)
-			while(!place_meeting(x,y+onepixel,pWall)) y += onepixel;
+			while(!Collision(x,y+onepixel)) y += onepixel;
 			vsp = 0;
 			vsp_fraction = 0;
 		}
@@ -192,8 +192,8 @@ if(!instance_exists(oGhost))
 		#endregion
 
 		#region Calculate Status
-		onground = place_meeting(x,y+1,pWall);
-		onwall = place_meeting(x+1,y,pWall) - place_meeting(x-1,y,pWall);
+		onground = Collision(x,y+1);
+		onwall = Collision(x+1,y) - Collision(x-1,y);
 		if((onwall != image_xscale) and (onwall != 0)) or (ducking) onwall = 0;
 		if (onground) jumpbuffer = 0;
 		//if(onground) or (onwall != 0) or (sprite_index == sPlayerA) angle = Approch(Wrap(angle,min(0,360*image_xscale),max(0,360*image_xscale)),0,20);
@@ -267,7 +267,6 @@ if(!instance_exists(oGhost))
 					if(hsp != 0)
 					{
 						sprite_index = sPlayerR;
-						if(image_index == 3) audio_play_sound(snFootstep,1,false);
 					}
 					else 
 					{
